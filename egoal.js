@@ -55,7 +55,7 @@ function Ticket(opt){
     }
 
     // verify uname（检测账号）
-    if(opt.name == undefined || trim(opt.uname) == ""){
+    if(opt.uname == undefined || trim(opt.uname) == ""){
         throw new Error('uname required.');
     }
 
